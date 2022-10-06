@@ -31,7 +31,7 @@ class QuestionAdmin(admin.ModelAdmin):
     list_display = ['question_text']
 
 class ChoiceAdmin(admin.ModelAdmin):
-    list_display = ('question', 'choice')
+    list_display = ('question', 'choice_text')
 
 # <HINT> Register Question and Choice models here
 
